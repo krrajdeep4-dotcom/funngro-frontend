@@ -20,7 +20,7 @@ function InquiryForm({ role }) {
     setStatus({ type: '', text: '' });
 
     try {
-      const response = await fetch('http://localhost:5000/api/inquiries', {
+      const response = await fetch('https://funngro-api.onrender.com/api/inquiries', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
