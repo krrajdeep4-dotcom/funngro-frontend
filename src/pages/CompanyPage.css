@@ -1,0 +1,146 @@
+
+.company-page {
+  background-color: #161e2c; 
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  padding-bottom: 50px;
+
+}
+ 
+
+.company-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.company-hero .hero-content {
+  flex: 1;
+  padding-right: 40px;
+ 
+}
+
+.seo-h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.company-hero p {
+  font-size: 1.2rem;
+  color: #a0aec0;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.cta-button-company {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button-company:hover {
+  background-color: #2563eb;
+}
+
+.company-hero .hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-box {
+  width: 280px;
+  height: 280px;
+  background-color: #1e293b;
+  border-radius: 20px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  border: 2px solid #3b82f6;
+}
+
+
+.benefits-section {
+  padding: 60px 5%;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.seo-h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #3b82f6;
+}
+
+.benefits-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.benefit-card {
+  background-color: #1e293b;
+  padding: 40px 20px;
+  border-radius: 12px;
+  flex: 1;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  border-top: 4px solid #3b82f6;
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-10px);
+}
+
+.benefit-card .icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.benefit-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.benefit-card p {
+  color: #a0aec0;
+  line-height: 1.5;
+}
+
+
+@media (max-width: 768px) {
+  .company-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .company-hero .hero-content {
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .seo-h1 {
+    font-size: 2.2rem;
+  }
+  
+  .benefits-grid {
+    flex-direction: column;
+  }
+}

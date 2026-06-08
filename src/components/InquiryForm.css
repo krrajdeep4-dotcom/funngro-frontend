@@ -1,0 +1,95 @@
+.form-container {
+  background-color: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  max-width: 400px;
+  width: 100%;
+  margin: 40px auto;
+  border-top: 4px solid #51cf86;
+}
+
+.form-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.inquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-group label {
+  font-size: 0.9rem;
+  color: #a0aec0;
+}
+
+.input-group input,
+.input-group textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background-color: #0f172a;
+  color: #ffffff;
+  font-family: inherit;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  outline: none;
+  border-color: #51cf86;
+}
+
+.submit-btn {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #161e2c;
+  transition: opacity 0.3s ease;
+  margin-top: 10px;
+}
+
+.submit-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+
+.teen-btn {
+  background-color: #51cf86;
+}
+
+.company-btn {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.status-message {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.status-message.success {
+  background-color: rgba(81, 207, 134, 0.1);
+  color: #51cf86;
+}
+
+.status-message.error {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
